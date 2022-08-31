@@ -14,7 +14,7 @@ static struct serial_configure uart4_config = RT_SERIAL_CONFIG_DEFAULT;
 #endif
 
 
-
+//number_of_channels 当前要显示的通道数，后面的可变参数是unsigned int 类型的通道数据，可变参数的个数与number_of_channels保持一致
 char vofa_plus_transmit(vofa_plus_dev_struct_t_p dev,unsigned int number_of_channels,...)
 {
     unsigned char idx;
