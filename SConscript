@@ -3,15 +3,12 @@ import os
 from building import *
 
 cwd = GetCurrentDir()
-src  = Glob('*.c')
 
 src = Split('''
 vofa_plus/src/vofa_plus.c
 ''')
+path = [cwd + '/inc']
 
-path = [cwd]
-path += [cwd + '/inc']
-
-group = DefineGroup('vofa_plus', src, depend = [''], CPPPATH = path)
+group = DefineGroup('vofa_plus', src, depend = ['PKG_USING_VOFA_PLUS'], CPPPATH = path)
 
 Return('group')
