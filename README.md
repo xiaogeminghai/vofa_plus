@@ -1,7 +1,7 @@
 # vofa+ 实现串口数据波形显示
 ##### 用来实现pid等算法的调试
 ###### vofa+工具安装及配置
-	首先安装vofa_plus->tools目录下的vofa+_1.3.10_x64_installer.exe。
+	首先安装vofa+_1.3.10_x64_installer.exe。
 	打开vofa+工具，数据引擎选择 JustFloat模式。
 	新建波形图工具。
 ###### 代码使用
