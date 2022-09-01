@@ -3,7 +3,7 @@
 #include <rtdevice.h>               
 #include <board.h> 
 #include "stdarg.h"
-
+#include "string.h"
 
 #ifdef PKG_USING_VOFA_PLUS
 
