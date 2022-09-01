@@ -25,7 +25,7 @@ extern "C"{
 #endif /* __cplusplus */
 
 
-#if PKG_USING_VOFA_PLUS
+#ifdef PKG_USING_VOFA_PLUS
 
 #define VOFA_PLUS_NUMBER_OF_CHANNELS 1
 #define VOFA_PLUS_UNIT_BYTES 4

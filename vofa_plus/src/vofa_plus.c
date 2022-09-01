@@ -5,7 +5,7 @@
 #include "stdarg.h"
 
 
-#if PKG_USING_VOFA_PLUS
+#ifdef PKG_USING_VOFA_PLUS
 
 
 #ifdef BSP_USING_UART4
