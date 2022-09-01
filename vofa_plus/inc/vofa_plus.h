@@ -16,7 +16,7 @@
 #ifndef __VOFA_PLUS_H__
 #define __VOFA_PLUS_H__
 
-
+#include "rtconfig.h"
 
 #ifdef __cplusplus
 #if __cplusplus
